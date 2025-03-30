@@ -9,6 +9,66 @@
                 "UwU"
             ],
             "correctIndex": 3
+        },
+        {
+            "question": "Wie viele Finger hat ein Mensch?",
+            "answers": [
+                "5",
+                "4",
+                "3",
+                "2"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "Wer ist best girl?",
+            "answers": [
+                "Mikasa",
+                "Asuna",
+                "Bocchi the Rock",
+                "Speedwagon"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "Wer lebt in einer Ananas ganz Tief im Meer?",
+            "answers": [
+                "Bob Ross",
+                "Pocahontas",
+                "Minecraft Steve",
+                "John Wick"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "Welches Pokémon ist am kompatibelsten?",
+            "answers": [
+                "Blitza",
+                "Aquana",
+                "Feelinara",
+                "Folipurba"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Was ist 9 + 10?",
+            "answers": [
+                "19",
+                "20",
+                "21",
+                "22"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "Was ist denn mit Karsten los?",
+            "answers": [
+                "Karsten ist tot",
+                "Karsten hat zwanzig Gramm Oxycodon konsumiert und hat einen spasmatischen Anfall",
+                "Das sieht gar nicht gut aus",
+                "Wer ist Karsten?"
+            ],
+            "correctIndex": 2
         }
     ],
     "medium": [
@@ -21,7 +81,67 @@
                 "UwU"
             ],
             "correctIndex": 2
-        }
+        },
+        {
+            "question": "Wer war der erste Präsident der USA?",
+            "answers": [
+                "Billie Eilish",
+                "Glumander",
+                "George Washington",
+                "Leonardo DaVinci"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Warum ist die Banane krumm?",
+            "answers": [
+                "Weil niemand in den Mund gebrochen ist",
+                "Weil sie nicht gerade ist",
+                "Weil sie krumm ist",
+                "Weil sie krumm ist, weil sie nicht gerade ist"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "Was ist der Gummibär aus dem Lied NICHT?",
+            "answers": [
+                "süß",
+                "bunt",
+                "dick",
+                "gay icon"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "Welches ist das beste italienische Tier?",
+            "answers": [
+                "Bombardiro Crocodilo",
+                "Brr brr Patapim",
+                "Tralalero Tralala",
+                "Pasta"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "Wer war der erste Mensch auf dem Mond?",
+            "answers": [
+                "Freddy Mercury",
+                "Herbert Prohaska",
+                "Sandy Cheeks",
+                "Gniesbert"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "Xuě huā piāo piāo běi fēng xiāo xiāo",
+            "answers": [
+                "Tiān dì yí piàn cāng máng",
+                "Yì jiǎn hán méi ào lì xuě zhōng",
+                "Zhǐ wéi yī rén piāo xiāng",
+                "Ài wǒ suǒ ài wú yuàn wú huǐ"
+            ],
+            "correctIndex": 0
+        }       
     ],
     "hard": [
         {
@@ -41,6 +161,56 @@
                 "flowers are blooming",
                 "on days like these, kids like you",
                 "should be burning in hell"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "Was ist der Sinn des Lebens?",
+            "answers": [
+                "Die Frage ist nicht beantwortbar",
+                "Sung Jin-woo",
+                "Informatikstudium",
+                "Äpfel"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Was ist die Hauptstadt von Burkina Faso?",
+            "answers": [
+                "Ouagadougou",
+                "Uagadugu",
+                "Wagadugu",
+                "Osaka"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "Warum haben meine Eltern mich nicht gewollt?",
+            "answers": [
+                "Weil ich ein Fehler war",
+                "Weil ich nicht gewollt war",
+                "Weil ich nicht gewollt bin",
+                "Weil ich ein Fehler bin"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "Was ist das beste japanische Wort?",
+            "answers": [
+                "放射性同位元素",
+                "大量破壊兵器",
+                "亜鉛華軟膏",
+                "資源エネルギー庁"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "In Overwatch spiele ich am liebsten...",
+            "answers": [
+                "Widowmaker",
+                "Winston",
+                "Tracer",
+                "Mercy"
             ],
             "correctIndex": 3
         }

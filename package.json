@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.13.14"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm ./src/index.ts"
+  }
+}
