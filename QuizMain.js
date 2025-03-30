@@ -7,9 +7,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var _a, _b, _c, _d, _e, _f;
+var _a, _b, _c, _d, _e, _f, _g;
 import { loadQuestions } from "./QuizManager.js";
+import { addScore } from "./ScoreManager.js";
 import { displayQuestion } from "./QuestionRenderer.js";
+import { displayLeaderboard } from "./ScoreManager.js";
 var allQuestions = [];
 export let currentQuestion = 0;
 export let answers = [-1, -1, -1, -1, -1];
@@ -67,5 +69,10 @@ function initQuestions(diff) {
     }
     console.log(score);
     let username = document.getElementById("user_name").value;
-    //addScore(username, score);
+    addScore(username, score);
+});
+(_g = document.getElementById('leader')) === null || _g === void 0 ? void 0 : _g.addEventListener("click", event => {
+    let bdiv = document.getElementById("leaderb");
+    bdiv.innerHTML = "";
+    bdiv.appendChild(displayLeaderboard());
 });

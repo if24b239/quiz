@@ -2,6 +2,7 @@ import { loadQuestions } from "./QuizManager.js";
 import { addScore } from "./ScoreManager.js";
 import { displayQuestion } from "./QuestionRenderer.js";
 import { QuestionData } from "./QuestionType.js";
+import { displayLeaderboard } from "./ScoreManager.js";
 
 var allQuestions: QuestionData[] = [];
 export let currentQuestion: number = 0;
@@ -80,5 +81,13 @@ document.getElementById('done')?.addEventListener("click", event => {
 
     let username: string = (document.getElementById("user_name") as HTMLInputElement).value;
     
-    //addScore(username, score);
+    addScore(username, score);
+})
+
+document.getElementById('leader')?.addEventListener("click", event => {
+
+    let bdiv = document.getElementById("leaderb") as HTMLElement;
+
+    bdiv.innerHTML = "";
+    bdiv.appendChild(displayLeaderboard());
 })
