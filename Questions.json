@@ -1,0 +1,48 @@
+{
+    "easy": [
+        {
+            "question": "why",
+            "answers": [
+                "yuh",
+                "nuh",
+                "😭",
+                "UwU"
+            ],
+            "correctIndex": 3
+        }
+    ],
+    "medium": [
+        {
+            "question": "42",
+            "answers": [
+                "yuh",
+                "nuh",
+                "😭",
+                "UwU"
+            ],
+            "correctIndex": 2
+        }
+    ],
+    "hard": [
+        {
+            "question": "???",
+            "answers": [
+                "yuh",
+                "!!!",
+                "😭",
+                "UwU"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "it's a beautiful day outside",
+            "answers": [
+                "birds are singing",
+                "flowers are blooming",
+                "on days like these, kids like you",
+                "should be burning in hell"
+            ],
+            "correctIndex": 3
+        }
+    ]
+}
